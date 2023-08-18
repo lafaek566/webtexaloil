@@ -1,0 +1,40 @@
+.social__link-icon {
+    text-decoration: none;
+    color: #f9a826;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.contact__btn {
+    padding: 7px 15px;
+    background: #f9a826;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact__btn {
+        margin-bottom: 40px;
+        font-size: 0.8px;
+    }
+}
+
+.email__btn {
+    background:#f9a826;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.email__btn a {
+    display: flex;
+    align-items: center;
+    column-gap: 0.4rem;
+    text-decoration: none;
+    color: #fff;
+    justify-content: end;
+    font-size: 0.9rem;
+}
